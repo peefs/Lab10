@@ -5,6 +5,10 @@ const studentRoutes = require("./routes/students");
 
 const app = express();
 
+app.use(cors('http://localhost:5000'));
+app.use(bodyParser.json());
+app.use("/uploads", express.static("uploads")); // Serve images
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use("/api/students", studentRoutes);
