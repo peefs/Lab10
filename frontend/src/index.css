@@ -2,24 +2,23 @@ body {
   font-family: 'Inter', sans-serif;
   color: #000000; /* Darker text color for better contrast */
   line-height: 3; /* Enhance readability */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
   display: center;
   align-items: center;
   justify-content: center;
-  min-height: 110vh; /* Ensure the body covers the full viewport height */
+  min-height: 50vh; /* Ensure the body covers the full viewport height */
   background-color: #000000; /* Light background for better readability */
 }
 
 .container-box {
   background-color: #ffffff; /* White background for the container */
   border-radius: 16px; /* Rounded corners */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
   padding: 30px; /* Reduce padding inside the container */
-  max-width: 350px; /* Reduce the maximum width of the container */
+  max-width: 200px; /* Reduce the maximum width of the container */
   width: 100%; /* Ensure the container is responsive */
   text-align: center; /* Center-align text inside the container */
   margin: auto; /* Center the container horizontally */
+  margin-top: 50px; /* Add spacing above the container */
 }
 
 h1, h2, h3, h4, h5, h6 {
