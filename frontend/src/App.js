@@ -24,8 +24,8 @@ const App = () => {
         backgroundSize: "cover", // Ensure the background covers the entire area
         backgroundPosition: "center", // Center the background image
         backgroundRepeat: "no-repeat", // Prevent background repetition
-        height: "100vh", // Ensure the background fills the viewport height
-        width: "100vw", // Ensure the background fills the viewport width
+        height: "100vh", 
+        width: "100vw", 
       }}
     >
       <div
